@@ -4,5 +4,6 @@ import routes from './routes';
 export default defineConfig({
   npmClient: 'npm',
   title: 'Ant Stream Platform',
+  antd: {},
   routes,
 });
